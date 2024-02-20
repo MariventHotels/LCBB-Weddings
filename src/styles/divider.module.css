@@ -1,0 +1,40 @@
+.top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.top svg {
+    position: relative;
+    display: block;
+    width: calc(285% + 1.3px);
+}
+
+.top .shape {
+    fill: #FFFFFF;
+}
+.bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    pointer-events: none;
+}
+
+.bottom svg {
+    position: relative;
+    display: block;
+    width: calc(285% + 1.3px);
+}
+
+.bottom .shapebot {
+    fill: #FFFFFF;
+}
