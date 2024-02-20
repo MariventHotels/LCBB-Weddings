@@ -54,15 +54,6 @@ const GalleryPage = () => {
       </p>
       <div className="max-w-[63rem] mx-auto mb-20 ">
         <div className="flex justify-center gap-10 mb-5 font-opensans xmd:hidden">
-          {/**
-            <button
-              onClick={handleButton}
-              value=""
-              className="hover:text-[#F0AF59]"
-            >
-              All
-            </button>
-          */}
           <button
             onClick={handleButton}
             value="bataan"

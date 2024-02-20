@@ -1,9 +1,9 @@
 import { useState } from "react";
 import Header from "../components/Header";
-import img from "../assets/gallery/prenup/09 vital image.jpeg";
+import img from "../assets/about/lcbb-cvpg.jpg";
 import logo from "../assets/logos/Lascasas_B_brown.png";
-import prenup from "../assets/about/11 Nice Print Photography & Exige Weddings.jpeg";
-import classic from "../assets/packages/packages/RegularWeddingPackage.jpg";
+import prenup from "../assets/about/prenup.jpg";
+import classic from "../assets/packages/packages/classic.jpg";
 import signature from "../assets/packages/packages/SignatureWeddingPackage.jpg";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";

@@ -1,7 +1,7 @@
 // import {useState} from "react";
 import Header from "../components/Header";
 import img from "../assets/home/lascasasbataan/BataanCover.png";
-import packages from "../assets/home/lascasasbataan/main/Packages.jpeg";
+import packages from "../assets/home/lascasasbataan/main/packagesb.jpg";
 import venue from "../assets/home/lascasasbataan/main/Venue.jpg";
 import menu from "../assets/home/lascasasbataan/main/Menu.jpg";
 import lookbook from "../assets/home/lascasasbataan/main/Lookbook.jpg";

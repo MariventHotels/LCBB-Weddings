@@ -16,7 +16,6 @@ const Menu = () => {
     saveAs(imgData[index].image, imgData[index].name);
   };
 
-
   return (
     <div id="menu">
       <Header>
