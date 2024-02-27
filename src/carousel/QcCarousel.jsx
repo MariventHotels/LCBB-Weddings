@@ -22,7 +22,7 @@ const QcCarousel = () => {
   };
 
   return (
-    <div className="mb-20">
+    <div className="mx-14 xsm:m-0">
       {/* Initialize the Slider component with the defined settings */}
       <Slider {...settings}>
         {images.map((image, index) => (
@@ -31,7 +31,7 @@ const QcCarousel = () => {
             <img
               src={image}
               alt={`Slide ${index + 1}`}
-              className="w-full h-auto xsm:w-[500px] xsm:h-[300px]"
+              className="w-full h-[700px] xsm:w-[500px] xsm:h-[300px]"
             />
           </div>
         ))}

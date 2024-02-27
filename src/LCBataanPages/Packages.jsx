@@ -23,8 +23,8 @@ const Packages = () => {
 
   return (
     <div id="packages">
-      <Header>
-        <img src={img} alt="" className="w-full object-bottom object-cover" />
+      <Header className="h-auto">
+        <img src={img} alt="" className="w-full object-bottom object-cover xsm:h-auto h-[700px]" />
       </Header>
       <div className="flex justify-center mb-20 xsm:mb-10">
         <img src={logo} alt="" className="xsm:w-[250px] w-[320px]" />

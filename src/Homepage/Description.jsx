@@ -7,7 +7,7 @@ const Description = () => {
         intimate or grand celebrations.&apos; Say &quot;I do&quot; to the
         picturesque Las Casas and open new wanders of a lifetime love story
         leading to the &quot;happily ever after.&quot; */}
-        What our Clients Say
+        What Our Clients Say
       </h3>
     </div>
   );

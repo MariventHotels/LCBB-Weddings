@@ -32,7 +32,7 @@ const Venue = () => {
           </svg>
         </div>
       </div>
-      <hr className="border-t-1 border-[#CEAA77] max-w-[63rem] mx-auto mb-10" />
+      <hr className="border-t-1 border-[#CEAA77] max-w-[63rem] mx-auto mb-10 mt-20" />
         <div className="flex flex-col items-center justify-center mb-10">
           <h2 className="font-playfair text-2xl xmd:text-base">
             For more details please contact us at:

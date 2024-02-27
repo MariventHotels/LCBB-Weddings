@@ -38,8 +38,8 @@ const LCBataan = () => {
 
   return (
     <Fade triggerOnce id="bataan">
-      <Header className="!mb-0 relative">
-        <img src={img} className="w-full object-cover" />
+      <Header className="relative h-auto">
+        <img src={img} className="w-full object-cover xsm:h-auto h-[700px]" />
         <div className="absolute top-1/3">
           <h1 className="font-playfair p-10 text-3xl text-[#fff] xmd:text-5xl xxsm:text-xl xmd:p-5">
             Weddings at Las Casas - Bataan
@@ -47,7 +47,7 @@ const LCBataan = () => {
         </div>
       </Header>
 
-      <div className="max-w-[63rem] mx-auto mb-20 xmd:mb-10 mt-14 xxsm:mt-10">
+      <div className="max-w-[63rem] mx-auto mb-20 xmd:mb-10 xxsm:mt-10">
         <h3 className="text-2xl text-center text-[#424242] font-opensans xmd:text-base xsm:mx-[1rem]">
           Las Casas has been the ultimate dream wedding destination. It offers a variety of green gardens,
           grand ballrooms, and Filipino-Spanish inspired Casas which will surely be a unique wedding from the rest.

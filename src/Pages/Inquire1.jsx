@@ -71,8 +71,8 @@ const Inquire = () => {
 
   return (
     <Fade triggerOnce id="inquire" className="relative">
-      <Header className="!mb-0 relative">
-        <img src={img} className="w-full object-cover" />
+      <Header className="relative h-auto">
+        <img src={img} className="w-full object-cover xsm:h-auto h-[700px]" />
         <div className="absolute top-1/3">
           <h1 className="font-playfair p-10 text-3xl text-[#fff] xmd:text-5xl xxsm:text-xl xmd:p-5">
             Connect with Us!
@@ -88,7 +88,7 @@ const Inquire = () => {
         </p>
       </div> */}
 
-      <div className="flex justify-center items-center mb-20 mt-14">
+      <div className="flex justify-center items-center mb-20">
         <div className="max-w-[52rem] w-full xxsm:mx-5">
           <form ref={form} onSubmit={sendEmail}>
             <div className="flex xxsm:flex-col">

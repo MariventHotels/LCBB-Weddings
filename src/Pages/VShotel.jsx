@@ -22,8 +22,8 @@ const VShotel = () => {
 
   return (
     <div id="packages">
-      <Header className="!mb-0 relative">
-        <img src={img} className="w-full object-cover" />
+      <Header className="relative h-auto mb-10">
+        <img src={img} className="w-full object-cover xsm:h-auto h-[700px]" />
         <div className="absolute top-1/3">
           <h1 className="font-playfair p-10 text-3xl text-[#fff] xmd:text-5xl xxsm:text-xl xmd:p-5">
             Weddings at VS Hotel
@@ -31,7 +31,7 @@ const VShotel = () => {
         </div>
       </Header>
 
-      <div className="flex justify-center mt-10 mb-5 xsm:mb-10">
+      <div className="flex justify-center mb-5 xsm:mb-10">
         <img src={logo} alt="" className="xsm:w-[250px] w-[320px]" />
       </div>
       <div className="mb-20 xxsm:mb-10">

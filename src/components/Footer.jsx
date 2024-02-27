@@ -103,7 +103,7 @@ const Footer = () => {
       {/* Copyright Notice */}
       <div className="flex justify-center mb-5">
         <p className="text-[#fff] font-opensans text-sm xxsm:text-xs italic ">
-          Copyright © 2023 Las Casas Weddings. All Rights Reserved
+          Copyright © 2024 Las Casas Weddings. All Rights Reserved
         </p>
       </div>
 
