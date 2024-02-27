@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import img from "../assets/packages/coverimg/Menu.jpg";
+import img from "../assets/packages/menu/lcbb-menu.jpg";
 import menu from "../assets/packages/menu/Las bodas LCBB menu.jpg";
 import { useState } from "react";
 import { saveAs } from "file-saver";
@@ -42,7 +42,6 @@ const Menu = () => {
           className={`transform transition-transform ease-in-out duration-500 ${
             hovered ? "scale-110" : ""
           }`}
-          
         />
       </div>
 

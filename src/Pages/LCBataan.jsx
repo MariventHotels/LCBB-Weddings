@@ -10,6 +10,7 @@ import ImageHover from "../Reusable Components/ImageHover";
 import { AttentionSeeker, Fade } from "react-awesome-reveal";
 import Button from '../Reusable Components/Button'
 import { Link } from "react-router-dom";
+
 const LCBataan = () => {
   const imageSections = [
   {

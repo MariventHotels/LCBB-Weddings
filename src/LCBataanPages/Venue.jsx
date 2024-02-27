@@ -33,13 +33,13 @@ const Venue = () => {
         </div>
       </div>
       <hr className="border-t-1 border-[#CEAA77] max-w-[63rem] mx-auto mb-10" />
-             <div className="flex flex-col items-center justify-center mb-10">
-        <h2 className="font-playfair text-2xl xmd:text-base">
-          For more details please contact us at:
-        </h2>
-        <h2 className=" font-playfair text-2xl xmd:text-base">
-          +63 917 872 9368 | contact@lascasasweddings.com
-        </h2>
+        <div className="flex flex-col items-center justify-center mb-10">
+          <h2 className="font-playfair text-2xl xmd:text-base">
+            For more details please contact us at:
+          </h2>
+          <h2 className=" font-playfair text-2xl xmd:text-base">
+            +63 917 872 9368 | contact@lascasasweddings.com
+          </h2>
       </div>
     </div>
   );

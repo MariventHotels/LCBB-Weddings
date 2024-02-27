@@ -13,6 +13,7 @@ import QCVenue from "./LCQCPages/Venue";
 import QCMenu from "./LCQCPages/Menu";
 import QCLookBook from "./LCQCPages/LookBook";
 import VShotel from "./Pages/VShotel";
+import VSPackages from "./VSPages/Packages.jsx";
 import Gallery from "./Pages/Gallery";
 import AboutUs from "./Pages/AboutUs";
 import Inquire1 from "./Pages/Inquire1.jsx";
@@ -39,6 +40,7 @@ function App() {
           <Route path="/qc/menu" element={<QCMenu />} />
           <Route path="/qc/lookbook" element={<QCLookBook />} />
           <Route path="/vshotel" element={<VShotel />} />
+          <Route path="/vshotel/packages" element={<VSPackages />} />
           <Route
             path="/gallery"
             element={<Gallery/>}

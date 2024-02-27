@@ -2,14 +2,21 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import courtyard from "../assets/LasCasasBataan/Venue/courtyard.jpg";
-import hoteldeoriente from "../assets/LasCasasBataan/Venue/Hotel De Oriente.jpg";
-import island2 from "../assets/LasCasasBataan/Venue/Island 2.jpg";
+import VenueA from "../assets/LasCasasBataan/Venue/vn1.jpg";
+import VenueB from "../assets/LasCasasBataan/Venue/vn2.jpg";
+import VenueC from "../assets/LasCasasBataan/Venue/vn3.jpg";
+import VenueD from "../assets/LasCasasBataan/Venue/vn4.jpg";
+import VenueE from "../assets/LasCasasBataan/Venue/vn5.jpg";
+import VenueF from "../assets/LasCasasBataan/Venue/vn6.jpg";
+import VenueG from "../assets/LasCasasBataan/Venue/vn7.jpg";
+import VenueH from "../assets/LasCasasBataan/Venue/vn8.jpg";
+
+
 import "../styles/carousel.css";
 
 const BtCarousel = () => {
   // Define an array of images to display in the carousel
-  const images = [courtyard, hoteldeoriente, island2];
+  const images = [VenueA, VenueB, VenueC, VenueD, VenueE, VenueF, VenueG, VenueH];
 
   // Configure carousel settings
   const settings = {

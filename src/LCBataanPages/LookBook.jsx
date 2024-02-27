@@ -1,6 +1,6 @@
 // import React from "react";
 import Header from "../components/Header";
-import img from "../assets/packages/coverimg/lookbook.jpg";
+import img from "../assets/packages/coverimg/DSC_1203.jpg";
 import BataanFlipBook from "../components/BataanFlipBook";
 
 const LookBook = () => {
