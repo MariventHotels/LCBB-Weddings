@@ -84,7 +84,7 @@ const Footer = () => {
             <div className="text-[#fff] text-center font-opensans text-sm ml-2">
               <p>Brgy. Ibaba, Bagac, Bataan</p>
               <p>+63 917 872 9368</p>
-              <p>weddings@lascasasweddings.com</p>
+              <p>weddings@lascasasfilipinas.com</p>
             </div>
         </div>
         <div className="">
