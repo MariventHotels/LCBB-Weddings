@@ -29,6 +29,8 @@ function App() {
       <BrowserRouter>
         <ScrollToTop />
         <NavBar />
+        <Analytics />
+        <SpeedInsights />
         <Routes>
           <Route index element={<Home />} />
           <Route path="/" element={<Home />} />
@@ -53,9 +55,6 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
-      <Analytics />
-      <SpeedInsights />
-
     </div>
   );
 }
