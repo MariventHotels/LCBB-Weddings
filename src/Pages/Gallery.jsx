@@ -21,7 +21,7 @@ const GalleryPage = () => {
   };
 
   // State to filter images based on selected category
-  const [selectedCategory, setSelectedCategory] = useState(null);
+  const [selectedCategory, setSelectedCategory] = useState("bataan");
 
   // Function to handle category button click and update the selectedCategory state
   const handleButton = (event) => {
@@ -98,6 +98,7 @@ const GalleryPage = () => {
             return 5;
           }}
           layout="rows"
+          // layout="masonry"
           photos={result}
           onClick={handlePhotoClick}
         />

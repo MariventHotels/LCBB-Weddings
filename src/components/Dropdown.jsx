@@ -5,7 +5,7 @@ import links from "../data/dropgallery";
 
 const Dropdown = ({ handleButton }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedOption, setSelectedOption] = useState("All");
+  const [selectedOption, setSelectedOption] = useState("bataan");
 
   const handleItemClick = (item) => {
     handleButton({ target: { value: item.value } });

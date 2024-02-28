@@ -9,7 +9,7 @@ const Venue = () => {
           Venue
         </h1>
         <p className="text-center text-[#424242] font-opensans text-lg xmd:text-base mx-[1rem] mb-10">
-          LLas Casas Filipinas de Acuzar will surely leave each of your guest
+          Las Casas Filipinas de Acuzar will surely leave each of your guest
           awestruck with its timeless yet romantic elegance.
         </p>
       </div>

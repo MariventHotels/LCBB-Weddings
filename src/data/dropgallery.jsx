@@ -14,7 +14,7 @@ export default [
   {
     link: "VS Hotel",
     value: "vshotel",
-  },
+  }
   // {
   //   link: "Pre-nup",
   //   value: "prenup",
