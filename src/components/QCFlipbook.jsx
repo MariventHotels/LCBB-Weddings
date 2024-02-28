@@ -12,7 +12,6 @@ const QCFlipBook = () => {
       maxHeight={600}
       maxShadowOpacity={0.5}
       mobileScrollSupport={true}
-      
     >
       {qcflipbook.map((page) => (
         <img key={page.id} src={page.image} className="object-contain" />

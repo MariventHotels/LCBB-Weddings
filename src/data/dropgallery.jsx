@@ -1,8 +1,8 @@
 export default [
-  {
-    link: "All",
-    value: "",
-  },
+  // {
+  //   link: "All",
+  //   value: "",
+  // },
   {
     link: "Las Casas Bataan",
     value: "bataan",
@@ -15,8 +15,8 @@ export default [
     link: "VS Hotel",
     value: "vshotel",
   },
-  {
-    link: "Pre-nup",
-    value: "prenup",
-  },
+  // {
+  //   link: "Pre-nup",
+  //   value: "prenup",
+  // },
 ];

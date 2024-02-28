@@ -31,7 +31,7 @@ const QcCarousel = () => {
             <img
               src={image}
               alt={`Slide ${index + 1}`}
-              className="w-full h-[700px] xsm:w-[500px] xsm:h-[300px]"
+              className="w-full h-[700px] xsm:w-[500px] xsm:h-auto 2xl:h-auto"
             />
           </div>
         ))}

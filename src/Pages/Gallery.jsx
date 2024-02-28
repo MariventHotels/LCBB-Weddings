@@ -97,7 +97,7 @@ const GalleryPage = () => {
             if (spacingWidth < 852) return 5;
             return 5;
           }}
-          layout="masonry"
+          layout="rows"
           photos={result}
           onClick={handlePhotoClick}
         />
