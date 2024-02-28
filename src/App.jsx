@@ -18,6 +18,9 @@ import Gallery from "./Pages/Gallery";
 import AboutUs from "./Pages/AboutUs";
 import Inquire1 from "./Pages/Inquire1.jsx";
 import { ScrollToTop } from "react-router-scroll-to-top";
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 
 function App() {
 
@@ -50,6 +53,9 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
+      <Analytics />
+      <SpeedInsights />
+
     </div>
   );
 }
