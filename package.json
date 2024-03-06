@@ -17,6 +17,8 @@
     "@react-hook/media-query": "^1.1.1",
     "@vercel/analytics": "^1.2.2",
     "@vercel/speed-insights": "^1.0.10",
+    "browserslist": "^4.23.0",
+    "caniuse-lite": "^1.0.30001594",
     "file-saver": "^2.0.5",
     "hamburger-react": "^2.5.0",
     "lightbox2": "^2.11.4",
