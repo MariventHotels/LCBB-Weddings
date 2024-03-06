@@ -7,7 +7,7 @@ import footer from "../assets/footer/footerpatern.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#CEAA77] flex-shrink-0">
+    <footer className="bg-[#804B00] flex-shrink-0">
       {/* Newsletter Sign-up Section */}
       <div className="flex flex-col justify-center items-center mb-10">
         <h1 className="font-opensans text-[#ffffff] font-light text-2xl py-7 tracking-wide xxsm:text-xl">
@@ -30,7 +30,7 @@ const Footer = () => {
               id="mce-EMAIL"
               placeholder=""
               required=""
-              className="outline-none w-[300px] xxsm:w-[200px] h-10 rounded-tl rounded-bl text-[#424242] font-opensans text-sm pl-4 focus:outline-none focus:ring-1 focus:ring-[#F0AF59] focus:border-[#F0AF59]"
+              className="outline-none w-[300px] xmd:w-full xmd:mb-2 h-10 rounded-tl xmd:rounded-sm rounded-bl text-[#424242] font-opensans text-sm pl-4 focus:outline-none focus:ring-1 focus:ring-[#F0AF59] focus:border-[#F0AF59]"
             />
             {/* Real people should not fill this in and expect good things */}
             <div className="absolute left-[-5000px]" aria-hidden="true">
@@ -47,7 +47,7 @@ const Footer = () => {
               value="Subscribe"
               name="subscribe"
               id="mc-embedded-subscribe"
-              className="bg-[#F0AF59] w-[120px] h-10 rounded-br rounded-tr text-[#fff] font-opensans transition-all duration-75 active:ring-yellow-900 xmd:text-sm"
+              className="bg-[#e29633] w-[120px] xmd:w-full h-10 rounded-br xmd:rounded-sm cursor-pointer rounded-tr text-[#fff] font-opensans transition-all duration-75 active:ring-yellow-900 xmd:text-sm"
             />
           </form>
         </div>

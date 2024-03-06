@@ -7,8 +7,8 @@ const Ratings = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 1,
+    slidesToScroll: 1,
     autoplay: true,
     initialSlide: 0,
     arrows: false,
@@ -18,11 +18,11 @@ const Ratings = () => {
       {
         breakpoint: 1020,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
-          arrows: true
+          arrows: false
         },
       },
       {
@@ -30,8 +30,8 @@ const Ratings = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          initialSlide: 2,
-          arrows: true
+          initialSlide: 1,
+          arrows: false
         },
       },
       {
@@ -39,7 +39,7 @@ const Ratings = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          arrows: true
+          arrows: false
         },
       },
     ],
@@ -50,15 +50,23 @@ const Ratings = () => {
       <Slider {...settings}>
         {ratings.map((rating) => (
           <div key={rating.id}>
-            <div className="flex justify-center items-center">
-              <div className="w-[363px] h-[251px] border border-solid border-1 border-[#CEAA77] xxsm:w-[300px]">
-                <div className="flex pt-8 pl-5 pb-4">
+            <div className="mx-auto">
+              <div className="">
+
+                <div className="flex justify-center text-center flex-col pb-2">
+                  <h2 className="text-[#424242] text-normal font-bold">
+                    {rating.name}
+                  </h2>
+                {/**      <p className="text-[#424242] text-xs">Client</p> */}
+                </div>
+
+                <div className="flex justify-center pb-4 text-center mx-auto">
                   {Array.from({ length: rating.stars }, (index) => (
-                    <AiFillStar key={index} className="text-[#F0AF59]" />
+                    <AiFillStar key={index} className="text-[#804B00] bg-red" />
                   ))}
                 </div>
                 <div className="px-5 pb-6">
-                  <p className="font-opensans text-sm text-justify text-[#424242] xxsm:text-xs">
+                  <p className="font-opensans text-sm text-center text-[#424242] xxsm:text-xs">
                     {rating.text}
                   </p>
                 </div>
@@ -69,12 +77,6 @@ const Ratings = () => {
                       className="rounded-full object-cover w-[50px] h-[50px] bg-black"
                     />
                   </div> */}
-                  <div className="flex justify-center flex-col pl-2">
-                    <h2 className="text-[#424242] text-sm font-bold">
-                      {rating.name}
-                    </h2>
-                    <p className="text-[#424242] text-xs">Client</p>
-                  </div>
                 </div>
               </div>
             </div>

@@ -39,7 +39,7 @@ const LCBataan = () => {
       <Header Header className="relative h-auto">
       <img src={img} className="w-full object-cover xsm:h-auto h-[700px]" />
         <div className="absolute top-1/3">
-          <h1 className="font-playfair p-10 text-3xl text-[#fff] xmd:text-5xl xxsm:text-xl xmd:p-5">
+          <h1 className="font-playfair p-10 text-3xl text-[#fff] xmd:text-xl xxsm:text-xl xmd:p-5 ">
             Weddings at Las Casas - Quezon City
           </h1>
         </div>
@@ -65,9 +65,9 @@ const LCBataan = () => {
             />
             </ImageHover>
           </div>
-          <div className="absolute bottom-0 bg-[#CEAA77] w-[100%]">
+          <div className="absolute bottom-0 bg-[#804B00] w-[100%]">
             <div className="h-[40px] flex justify-center items-center">
-              <p className="capitalize font-normal tracking-wide font-opensans font text-[#fff]">
+              <p className="capitalize font-normal tracking-wide font-opensans text-[#fff]">
                 {sec.title}
               </p>
             </div>

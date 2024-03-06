@@ -45,10 +45,10 @@ const GalleryPage = () => {
 
   return (
     <Fade triggerOnce>
-      <h1 className="font-playfair text-4xl text-center mt-20 mb-5 xxsm:mt-8">
+      <h1 className="font-playfair text-4xl xmd:text-3xl text-center mt-10 mb-5 xmd:mt-5">
         Gallery
       </h1>
-      <p className="font-opensans text-lg text-center mb-20 xxsm:mb-8 xmd:text-base xsm:mx-[1rem] text-[#424242]">
+      <p className="font-opensans text-lg text-center mb-10 xxsm:mb-8 xmd:text-base xsm:mx-[1rem] text-[#424242]">
         &quot;Explore our stunning places where love and memories intertwine,
         creating enchanting moments that last a lifetime.&quot;
       </p>

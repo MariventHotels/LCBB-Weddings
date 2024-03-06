@@ -7,10 +7,12 @@ import QCFlipBook from "../components/QCFlipbook";
 const LookBook = () => {
   return (
     <div id="lookbook">
+      {/**
       <Header className="h-auto">
         <img src={img} alt="" className="w-full object-cover xsm:h-auto h-[700px]" />
       </Header>
-      <div className="mb-20 xxsm:mb-5 xmd:mx-[1rem]">
+    */}
+      <div className="mb-0 mt-10 xxsm:mb-5 xmd:mx-[1rem]">
         <h1 className="text-center font-playfair text-4xl mb-5 xmd:text-2xl">
           Look Book
         </h1>

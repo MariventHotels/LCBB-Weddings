@@ -13,23 +13,26 @@ const Venue = () => {
           awestruck with its timeless yet romantic elegance.
         </p>
       </div>
-      <div className="relative m-auto">
-        <div className={styles.top}>
-          <svg
-          data-name="Layer 1"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="none"
-          >
-          </svg>
-        </div>
-        <QcCarousel />
-        <div className={styles.bottom}>
-          <svg
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-          >
-          </svg>
+      <div className="mx-20">
+        <div className="grid xmd:grid-cols-1 grid-cols-3 gap-5">
+          <div>
+            <a href="../../src/assets/LasCasasQC/Venue/Casa Castillo.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasQC/Venue/Casa Castillo.jpg" alt="image-1" /></a>
+          </div>
+          <div>
+            <a href="../../src/assets/LasCasasQC/Venue/Frisco 1 and 2.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasQC/Venue/Frisco 1 and 2.jpg" alt="image-1" /></a>
+          </div>
+          <div>
+            <a href="../../src/assets/LasCasasQC/Venue/Garden 3.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasQC/Venue/Garden 3.jpg" alt="image-1" /></a>
+          </div>
+          <div>
+            <a href="../../src/assets/LasCasasQC/Venue/Plaza.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasQC/Venue/Plaza.jpg" alt="image-1" /></a>
+          </div>
+          <div>
+            <a href="../../src/assets/LasCasasQC/Venue/Roosevelt Function Room.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasQC/Venue/Roosevelt Function Room.jpg" alt="image-1" /></a>
+          </div>
+          <div>
+            <a href="../../src/assets/LasCasasQC/Venue/Casa Castillo.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasQC/Venue/Casa Castillo.jpg" alt="image-1" /></a>
+          </div>
         </div>
       </div>
       <hr className="border-t-1 border-[#CEAA77] max-w-[63rem] mx-auto mb-10 mt-20" />

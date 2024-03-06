@@ -1,11 +1,8 @@
-import BtCarousel from "../carousel/BtCarousel";
-import styles from "../styles/divider.module.css";
-
 const Venue = () => {
   return (
     <div id="venue" className="mt-10">
       <div className="flex flex-col">
-        <h1 className="text-center text-3xl font-playfair xmd:text-2xl">
+        <h1 className="text-center mb-5 text-3xl font-playfair xmd:text-2xl">
           Venue
         </h1>
         <p className="text-center text-[#424242] font-opensans text-lg xmd:text-base mx-[1rem] mb-10">
@@ -13,23 +10,35 @@ const Venue = () => {
           awestruck with its timeless yet romantic elegance.
         </p>
       </div>
-      <div className="relative m-auto">
-        <div className={styles.top}>
-          <svg
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-          >
-          </svg>
-        </div>
-        <BtCarousel />
-        <div className={styles.bottom}>
-          <svg
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-          >
-          </svg>
+      <div className="mx-20">
+        <div className="grid xmd:grid-cols-1 grid-cols-3 gap-5">
+          <div>
+            <a href="../../src/assets/LasCasasBataan/Venue/vn1.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasBataan/Venue/vn1.jpg" alt="image-1" /></a>
+          </div>
+          <div>
+            <a href="../../src/assets/LasCasasBataan/Venue/vn2.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasBataan/Venue/vn2.jpg" alt="image-1" /></a>
+          </div>
+          <div>
+            <a href="../../src/assets/LasCasasBataan/Venue/vn3.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasBataan/Venue/vn3.jpg" alt="image-1" /></a>
+          </div>
+          <div>
+            <a href="../../src/assets/LasCasasBataan/Venue/vn4.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasBataan/Venue/vn4.jpg" alt="image-1" /></a>
+          </div>
+          <div>
+            <a href="../../src/assets/LasCasasBataan/Venue/vn5.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasBataan/Venue/vn5.jpg" alt="image-1" /></a>
+          </div>
+          <div>
+            <a href="../../src/assets/LasCasasBataan/Venue/vn6.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasBataan/Venue/vn6.jpg" alt="image-1" /></a>
+          </div>
+          <div>
+            <a href="../../src/assets/LasCasasBataan/Venue/vn7.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasBataan/Venue/vn7.jpg" alt="image-1" /></a>
+          </div>
+          <div>
+            <a href="../../src/assets/LasCasasBataan/Venue/vn8.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasBataan/Venue/vn8.jpg" alt="image-1" /></a>
+          </div>
+          <div>
+            <a href="../../src/assets/LasCasasBataan/Venue/vn3.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasBataan/Venue/vn3.jpg" alt="image-1" /></a>
+          </div>
         </div>
       </div>
       <hr className="border-t-1 border-[#CEAA77] max-w-[63rem] mx-auto mb-10 mt-20" />

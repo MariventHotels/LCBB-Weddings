@@ -15,10 +15,12 @@ const Menu = () => {
 
   return (
     <div id="menu">
-      <Header className="h-auto">
+      {/**
+            <Header className="h-auto">
         <img src={img} alt="" className="w-full object-cover xsm:h-auto h-[700px]"/>
       </Header>
-      <div className="mb-20 xmd:mb-10 xmd:mx-[1rem]">
+    */}
+      <div className="mb-20 mt-10 xmd:mb-10 xmd:mx-[1rem]">
         <h1 className="text-center font-playfair text-4xl mb-5 xmd:text-2xl">Menu</h1>
         <p className="text-center text-[#424242] font-opensans text-lg mb-5 xmd:text-base">
           Choose from the variety of food and beverage to compliment your grand

@@ -15,11 +15,7 @@ export default [
     houses that have been salvaged from total ruin and neglect. Rebuilt by a team of
     artisans and craftsmen in the town of Bagac, Bataan; Las Casas Filipinas de Acuzar,
     features the finest of Filipino craftsmanship, artistry, and skill; giving the
-    property a look and feel that is distinctively on its own.
-
-
-
-            `,
+    property a look and feel that is distinctively on its own.`,
   },
   {
     id: 1,

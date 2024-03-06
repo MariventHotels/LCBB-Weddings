@@ -3,7 +3,7 @@ const Header = ({ children, id, className }) => {
     // Header element with optional id and className
     <header
       id={id && id}
-      className={`mx-[1rem] mb-20 mt-[8px] md:h-auto h-[90vh] flex justify-center xmd:mb-10 ${className}`}
+      className={`mb-20 md:h-auto flex justify-center xmd:mb-10 ${className}`}
     >
       {/* Render child components passed into the Header */}
       {children}
@@ -12,3 +12,5 @@ const Header = ({ children, id, className }) => {
 };
 
 export default Header;
+
+{/**className={`mx-[1rem] mb-20 md:h-auto flex justify-center xmd:mb-10 ${className}`} */}

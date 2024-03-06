@@ -29,7 +29,7 @@ const Packages = () => {
       <div className="flex justify-center mb-20 xsm:mb-10">
         <img src={logo} alt="" className="xsm:w-[250px] w-[320px]" />
       </div>
-      <section className="mx-[50px] mb-20 xxsm:mx-[12px] xxsm:mb-10 border border-[#d9d9d9] hover:border-[#CEAA77]">
+      <section className="mx-[50px] xmd:mx-2 mb-20 xxsm:mx-[12px] xxsm:mb-10 border border-[#d9d9d9] hover:border-[#CEAA77]">
         <div className="flex xmd:flex-col">
           <figure className="flex-1">
             <img
@@ -64,16 +64,16 @@ const Packages = () => {
         </div>
       </section>
       <div className="mb-20 xxsm:mb-10">
-        <h2 className="text-center font-playfair text-4xl mb-5 xxsm:mb-2 xmd:text-2xl">
+        <h2 className="text-center font-playfair text-4xl mb-5 xxsm:mb-2 xmd:text-2xl text-[#804B00]">
           Wedding Packages
         </h2>
-        <p className="text-center font-opensans mb-5 text-lg mx-[1rem] xmd:text-base text-[#424242]">
+        <p className="text-center font-opensans mb-5 text-lg mx-[1rem] xmd:text-base text-[#242424]">
           Our special offers compliments the couple’s personalities. Choose from
           our regular or our signature Las Casas classic wedding package.
         </p>
       </div>
 
-      <section className="mx-[50px] xxsm:mx-[12px] mb-10 border border-[#d9d9d9] hover:border-[#CEAA77]">
+      <section className="mx-[50px] xmd:mx-2 xxsm:mx-[12px] mb-10 border border-[#d9d9d9] hover:border-[#CEAA77]">
         <div className="flex xmd:flex-col">
           <figure className="flex-1">
             <img
@@ -84,7 +84,7 @@ const Packages = () => {
           </figure>
           <div className="flex-1 flex flex-col justify-center items-center p-1">
             <div className="p-5 xsm:p-0">
-              <p className="font-playfair text-3xl text-[#424242] xsm:text-2xl">
+              <p className="font-playfair text-3xl text-[#242424] xsm:text-2xl">
                 Classic Weddings
               </p>
             </div>
@@ -105,7 +105,7 @@ const Packages = () => {
           </div>
         </div>
       </section>
-      <section className="mx-[50px] mb-20 border border-[#d9d9d9] hover:border-[#CEAA77] xxsm:mx-[12px] xxsm:mb-5">
+      <section className="mx-[50px] xmd:mx-2 mb-20 border border-[#d9d9d9] hover:border-[#CEAA77] xxsm:mx-[12px] xxsm:mb-5">
         <div className="flex xmd:flex-col">
           <figure className="flex-1">
             <img

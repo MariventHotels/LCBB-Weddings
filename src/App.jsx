@@ -22,7 +22,7 @@ import { ScrollToTop } from "react-router-scroll-to-top";
 function App() {
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col bg-[#f8f8f8]">
       <BrowserRouter>
         <ScrollToTop />
         <NavBar />

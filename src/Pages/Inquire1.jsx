@@ -40,8 +40,6 @@ const Inquire = () => {
             ceremonyType: "Signature wedding",
             others: '',
           });
-
-
         },
         (error) => {
           console.log(error.text);
@@ -71,7 +69,8 @@ const Inquire = () => {
 
   return (
     <Fade triggerOnce id="inquire" className="relative">
-      <Header className="relative h-auto">
+     {/**
+       <Header className="relative h-auto">
         <img src={img} className="w-full object-cover xsm:h-auto h-[700px]" />
         <div className="absolute top-1/3">
           <h1 className="font-playfair p-10 text-3xl text-[#fff] xmd:text-5xl xxsm:text-xl xmd:p-5">
@@ -79,6 +78,7 @@ const Inquire = () => {
           </h1>
         </div>
       </Header>
+    */}
       {/* <div className="mb-20 ">
         <h1 className="text-center text-4xl font-playfair text-[#2d2d2d] mb-5">
           Connect with us!
@@ -88,9 +88,13 @@ const Inquire = () => {
         </p>
       </div> */}
 
-      <div className="flex justify-center items-center mb-20">
+      <div className="flex justify-center items-center mb-20 mt-10 xmd:mt-2">
         <div className="max-w-[52rem] w-full xxsm:mx-5">
-          <form ref={form} onSubmit={sendEmail}>
+          <h1 className="font-playfair text-center mb-10 xmd:mb-0 text-[#804B00] xmd:text-2xl text-3xl xmd:p-5">
+            Connect with Us!
+          </h1>
+
+          <form ref={form} onSubmit={sendEmail} className="p-2">
             <div className="flex xxsm:flex-col">
               <div className="mb-4 mr-4 w-full">
                 <label
@@ -357,8 +361,8 @@ const Inquire = () => {
                   required
                 />
             </div>
-            <div className="">
-              <Button type="submit" className="!w-[100px] !text-[12px]">
+            <div className="text-center">
+              <Button type="submit" className="!w-[200px] mt-5 !text-[12px]">
                 Submit
               </Button>
             </div>

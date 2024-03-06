@@ -12,7 +12,8 @@ const HeroSection = () => {
   return (
     <Fade triggerOnce id="home">
       <Header>
-        <video className="w-full object-cover !mb-0" src={video} autoPlay loop muted />
+        <video className="w-full mt-0" src={video} autoPlay loop muted />
+        {/**<video className="w-full object-cover" src={video} autoPlay loop muted /> */}
       </Header>
       <Label />
       <Navigation />

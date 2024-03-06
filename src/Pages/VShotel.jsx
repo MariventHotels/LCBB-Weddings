@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Header from "../components/Header";
 import img from "../assets/home/vshotel/VSH-Coverpage.png";
-import logo from "../assets/logos/VSH.png";
+import logo from "../assets/logos/VS hotel convention center.png";
 import basicpackage from "../assets/vs/01 VS.jpg";
 import roompackage from "../assets/vs/04 VS.jpg";
 import Lightbox from "yet-another-react-lightbox";
@@ -25,7 +25,7 @@ const VShotel = () => {
       <Header className="relative h-auto mb-10">
         <img src={img} className="w-full object-cover xsm:h-auto h-[700px]" />
         <div className="absolute top-1/3">
-          <h1 className="font-playfair p-10 text-3xl text-[#fff] xmd:text-5xl xxsm:text-xl xmd:p-5">
+          <h1 className="font-playfair p-10 text-3xl xmd:text-xl text-[#fff] xxsm:text-xl xmd:p-5">
             Weddings at VS Hotel
           </h1>
         </div>
@@ -34,17 +34,17 @@ const VShotel = () => {
       <div className="flex justify-center mb-5 xsm:mb-10">
         <img src={logo} alt="" className="xsm:w-[250px] w-[320px]" />
       </div>
-      <div className="mb-20 xxsm:mb-10">
+      <div className="mb-20 xxsm:mb-10 w-3/4 xmd:w-full mx-auto xmd:mx-0">
         <p className="text-center font-opensans mb-5 text-lg mx-[1rem] xmd:text-base text-[#424242]">
           Indulge in the allure of urban elegance at VS Hotel Convention Center. Celebrate love amidst the city's vibrant energy, where sophistication meets charm. Our exquisite venue sets the perfect stage for an urban wedding destination like no other. Say 'I do' in style, surrounded by breathtaking views and luxurious amenities. Create magical memories that will be cherished for a lifetime. Begin your love story in the heart of the city at the VS Hotel Convention Center.
         </p>
       </div>
 
-      <div className="mb-20 xxsm:mb-10">
-        <h2 className="text-center font-playfair text-4xl mb-5 xxsm:mb-2 xmd:text-2xl">
+      <div className="mb-20 xxsm:mb-10 w-3/4 xmd:w-full mx-auto xmd:mx-0 xmd:p-2">
+        <h2 className="text-center font-playfair text-4xl mb-5 xxsm:mb-2 xmd:text-2xl text-[#804B00]">
           Wedding Packages
         </h2>
-        <p className="text-center font-opensans mb-5 text-lg mx-[1rem] xmd:text-base text-[#424242]">
+        <p className="text-center font-opensans mb-5 text-lg xmd:text-base text-[#424242] ">
           Discover the perfect blend of elegance and convenience with our bespoke wedding packages. Elevate your special day effortlessly with our expertly crafted offerings, tailored to suit every dream wedding.
         </p>
       </div>
@@ -60,7 +60,7 @@ const VShotel = () => {
           </figure>
           <div className="flex-1 flex flex-col justify-center items-center p-1">
             <div className="p-5 xsm:p-0">
-              <p className="font-playfair text-3xl text-[#424242] xsm:text-2xl">
+              <p className="font-playfair text-3xl text-[#242424] xsm:text-2xl">
                 Basic Wedding Package
               </p>
             </div>
@@ -90,7 +90,7 @@ const VShotel = () => {
           </figure>
           <div className="flex-1 flex flex-col justify-center items-center p-1">
             <div className="p-5 xsm:p-0">
-              <p className="font-playfair text-3xl text-[#424242] xsm:text-2xl">
+              <p className="font-playfair text-3xl text-[#242424] xsm:text-2xl">
                 Wedding Room Package
               </p>
             </div>

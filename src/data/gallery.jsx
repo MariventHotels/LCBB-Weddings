@@ -40,6 +40,16 @@ import img34 from '../assets/gallery/vshotel/06 VS.jpg'
 import img35 from '../assets/gallery/vshotel/10 VS.jpg'
 import img36 from '../assets/gallery/vshotel/vshero.jpg'
 
+import img37 from '../assets/gallery/vshotel/vsw-1.jpg'
+import img38 from '../assets/gallery/vshotel/vsw-2.jpg'
+import img39 from '../assets/gallery/vshotel/vsw-3.jpg'
+import img40 from '../assets/gallery/vshotel/vsw-4.jpg'
+import img41 from '../assets/gallery/vshotel/vsw-5.jpg'
+import img42 from '../assets/gallery/vshotel/vsw-5.jpg'
+import img43 from '../assets/gallery/vshotel/vsw-6.jpg'
+import img44 from '../assets/gallery/vshotel/vsw-7.jpg'
+import img45 from '../assets/gallery/vshotel/vsw-8.jpg'
+
 const images = [
   {
     src: img1,
@@ -298,7 +308,71 @@ const images = [
     width: 320,
     height: 217,
     category: 'vshotel',
-  }
+  },
+  {
+    src: img37,
+    original: img37,
+    width: 320,
+    height: 217,
+    category: 'vshotel',
+  },
+  {
+    src: img38,
+    original: img38,
+    width: 320,
+    height: 217,
+    category: 'vshotel',
+  },
+  {
+    src: img39,
+    original: img39,
+    width: 320,
+    height: 217,
+    category: 'vshotel',
+  },
+  {
+    src: img40,
+    original: img40,
+    width: 300,
+    height: 350,
+    category: 'vshotel',
+  },
+  {
+    src: img41,
+    original: img41,
+    width: 320,
+    height: 217,
+    category: 'vshotel',
+  },
+  {
+    src: img42,
+    original: img42,
+    width: 320,
+    height: 217,
+    category: 'vshotel',
+  },
+  {
+    src: img43,
+    original: img43,
+    width: 320,
+    height: 217,
+    category: 'vshotel',
+  },
+  {
+    src: img44,
+    original: img44,
+    width: 320,
+    height: 217,
+    category: 'vshotel',
+  },
+  {
+    src: img45,
+    original: img45,
+    width: 320,
+    height: 217,
+    category: 'vshotel',
+  },
+
 
 ];
 

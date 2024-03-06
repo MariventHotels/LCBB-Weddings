@@ -18,10 +18,12 @@ const Menu = () => {
 
   return (
     <div id="menu">
+      {/**
       <Header>
         <img src={img} alt="" className="w-full object-cover" />
       </Header>
-      <div className="mb-20 xmd:mb-10 xmd:mx-[1rem]">
+    */}
+      <div className="mb-20 mt-10 xmd:mb-10 xmd:mx-[1rem]">
         <h1 className="text-center font-playfair text-4xl mb-5 xmd:text-2xl">
           Menu
         </h1>

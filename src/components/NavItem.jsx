@@ -36,7 +36,7 @@ const MenuItem = ({ to, label, hasDropdown, dropdownItems, handleNav }) => {
     >
       <Link to={belowMd && hasDropdown ? null : to}>
         <li
-          className="flex justify-center items-center text-[#424242] hover:text-[#F0AF59] transition-colors duration-300 active:scale-90 active:text-[#CEAA77] rounded-lg px-4 py-2"
+          className="flex justify-center items-center text-white hover:text-[#F0AF59] transition-colors duration-300 active:scale-90 active:text-[#CEAA77] rounded-lg px-4 py-2"
           onClick={(belowMd && hasDropdown) ? () => {setShowDropdown(!showDropdown);} : () => {handleNav();}}
         >
           <span>{label}</span>
