@@ -118,7 +118,7 @@ const NavBar = () => {
             <img
               src={logo}
               alt="Las Bodas Logo"
-              className={"max-w-[200px] xxsm:hidden"}
+              className={"max-w-[200px]"}
             />
             </a>
           </div>

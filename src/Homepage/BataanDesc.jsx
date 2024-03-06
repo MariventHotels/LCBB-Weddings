@@ -1,5 +1,10 @@
-const BataanDesc = () => {
+import bataan from "../../src/assets/home/properties/bataan.jpg";
+import bataanBg from "../../src/assets/home/bg-lpw.png";
+import lcqc from "../../src/assets/home/properties/lcqc.jpeg";
+import vsBg from "../../src/assets/home/bg-lpw.png";
+import vs from "../../src/assets/home/properties/vsh.jpg";
 
+const BataanDesc = () => {
 
   return (
     <div className="mb-10 xmd:mt-10">
@@ -7,12 +12,12 @@ const BataanDesc = () => {
         <div className="container-fluid">
             {/**bg img */}
           <div className="xmd:hidden">
-            <img src="../../src/assets/home/bg-lpw2.png" alt="" className="w-auto" />
+            <img src={bataanBg} alt="" className="w-auto" />
           </div>
           {/**grid A */}
           <div className="grid 2xl:grid-cols-2 gap-10 xmd:gap-5 w-full mx-auto 2xl:absolute bottom-20 2xl:px-20 xmd:px-2 text-center text-black">
             <div className="">
-              <img src="../../src/assets/home/properties/bataan.jpg" alt="" className="w-4/5 xmd:w-full mx-auto h-auto" />
+              <img src={bataan} alt="" className="w-4/5 xmd:w-full mx-auto h-auto" />
             </div>
             <div className="text-left 2xl:pt-28 xxl:pt-14 xmd:pt-0">
               <h1 className="xmd:text-2xl 2xl:text-3xl font-playfair mb-4 xmd:text-[#804B00]">Las Casas Bagac, Bataan</h1>
@@ -45,7 +50,7 @@ const BataanDesc = () => {
                 well-loved Las Casas experience from Bataan into the metro.`</p>
               </div>
               <div className="">
-                <img src="../../src/assets/home/properties/lcqc.jpeg" alt="" className="w-4/5 xmd:w-full mx-auto h-auto" />
+                <img src={lcqc} alt="" className="w-4/5 xmd:w-full mx-auto h-auto" />
               </div>
             </div>
           </div>
@@ -57,12 +62,12 @@ const BataanDesc = () => {
         <div className="container-fluid">
             {/**bg img */}
           <div className="xmd:hidden">
-            <img src="../../src/assets/home/bg-lpw.png" alt="" className="w-auto" />
+            <img src={vsBg} alt="" className="w-auto" />
           </div>
           {/**grid A */}
           <div className="grid 2xl:grid-cols-2 gap-10 xmd:gap-5 w-full mx-auto 2xl:absolute bottom-20 2xl:px-20 xmd:px-2 text-center text-black">
             <div className="">
-              <img src="../../src/assets/home/properties/vsh.jpg" alt="" className="w-4/5 xmd:w-full mx-auto h-auto" />
+              <img src={vs} alt="" className="w-4/5 xmd:w-full mx-auto h-auto" />
             </div>
             <div className="text-left 2xl:pt-28 xxl:pt-16 xmd:pt-0">
               <h1 className="xmd:text-2xl 2xl:text-3xl font-playfair mb-4 xmd:text-[#804B00]">VS Hotel</h1>
