@@ -1,3 +1,13 @@
+import venueA from "../../src/assets/LasCasasBataan/Venue/vn1.jpg";
+import venueB from "../../src/assets/LasCasasBataan/Venue/vn2.jpg";
+import venueC from "../../src/assets/LasCasasBataan/Venue/vn3.jpg";
+import venueD from "../../src/assets/LasCasasBataan/Venue/vn4.jpg";
+import venueE from "../../src/assets/LasCasasBataan/Venue/vn5.jpg";
+import venueF from "../../src/assets/LasCasasBataan/Venue/vn6.jpg";
+import venueG from "../../src/assets/LasCasasBataan/Venue/vn7.jpg";
+import venueH from "../../src/assets/LasCasasBataan/Venue/vn8.jpg";
+import venueI from "../../src/assets/LasCasasBataan/Venue/vn2.jpg";
+
 const Venue = () => {
   return (
     <div id="venue" className="mt-10">
@@ -13,31 +23,31 @@ const Venue = () => {
       <div className="mx-20">
         <div className="grid xmd:grid-cols-1 grid-cols-3 gap-5">
           <div>
-            <a href="../../src/assets/LasCasasBataan/Venue/vn1.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasBataan/Venue/vn1.jpg" alt="image-1" /></a>
+            <a href={venueA} data-lightbox="example-1"><img src={venueA} alt="wedding venue" /></a>
           </div>
           <div>
-            <a href="../../src/assets/LasCasasBataan/Venue/vn2.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasBataan/Venue/vn2.jpg" alt="image-1" /></a>
+            <a href={venueB} data-lightbox="example-1"><img src={venueB} alt="wedding venue" /></a>
           </div>
           <div>
-            <a href="../../src/assets/LasCasasBataan/Venue/vn3.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasBataan/Venue/vn3.jpg" alt="image-1" /></a>
+            <a href={venueC} data-lightbox="example-1"><img src={venueC} alt="wedding venue" /></a>
           </div>
           <div>
-            <a href="../../src/assets/LasCasasBataan/Venue/vn4.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasBataan/Venue/vn4.jpg" alt="image-1" /></a>
+            <a href={venueD} data-lightbox="example-1"><img src={venueD} alt="wedding venue" /></a>
           </div>
           <div>
-            <a href="../../src/assets/LasCasasBataan/Venue/vn5.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasBataan/Venue/vn5.jpg" alt="image-1" /></a>
+            <a href={venueE} data-lightbox="example-1"><img src={venueE} alt="wedding venue" /></a>
           </div>
           <div>
-            <a href="../../src/assets/LasCasasBataan/Venue/vn6.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasBataan/Venue/vn6.jpg" alt="image-1" /></a>
+            <a href={venueF} data-lightbox="example-1"><img src={venueF} alt="wedding venue" /></a>
           </div>
           <div>
-            <a href="../../src/assets/LasCasasBataan/Venue/vn7.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasBataan/Venue/vn7.jpg" alt="image-1" /></a>
+            <a href={venueG} data-lightbox="example-1"><img src={venueG} alt="wedding venue" /></a>
           </div>
           <div>
-            <a href="../../src/assets/LasCasasBataan/Venue/vn8.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasBataan/Venue/vn8.jpg" alt="image-1" /></a>
+            <a href={venueH} data-lightbox="example-1"><img src={venueH} alt="wedding venue" /></a>
           </div>
           <div>
-            <a href="../../src/assets/LasCasasBataan/Venue/vn3.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasBataan/Venue/vn3.jpg" alt="image-1" /></a>
+            <a href={venueI} data-lightbox="example-1"><img src={venueI} alt="wedding venue" /></a>
           </div>
         </div>
       </div>

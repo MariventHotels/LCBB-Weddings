@@ -1,5 +1,9 @@
-import QcCarousel from "../carousel/QcCarousel";
-import styles from "../styles/divider.module.css";
+import venueA from "../../src/assets/LasCasasQC/Venue/Casa Castillo.jpg";
+import venueB from "../../src/assets/LasCasasQC/Venue/Frisco 1 and 2.jpg";
+import venueC from "../../src/assets/LasCasasQC/Venue/Garden 3.jpg";
+import venueD from "../../src/assets/LasCasasQC/Venue/Plaza.jpg";
+import venueE from "../../src/assets/LasCasasQC/Venue/Roosevelt Function Room.jpg";
+import venueF from "../../src/assets/LasCasasQC/Venue/Roosevelt Function Room.jpg";
 
 const Venue = () => {
   return (
@@ -16,22 +20,22 @@ const Venue = () => {
       <div className="mx-20">
         <div className="grid xmd:grid-cols-1 grid-cols-3 gap-5">
           <div>
-            <a href="../../src/assets/LasCasasQC/Venue/Casa Castillo.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasQC/Venue/Casa Castillo.jpg" alt="image-1" /></a>
+            <a href={venueA} data-lightbox="example-1"><img src={venueA} alt="wedding venue" /></a>
           </div>
           <div>
-            <a href="../../src/assets/LasCasasQC/Venue/Frisco 1 and 2.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasQC/Venue/Frisco 1 and 2.jpg" alt="image-1" /></a>
+            <a href={venueB} data-lightbox="example-1"><img src={venueB} alt="wedding venue" /></a>
           </div>
           <div>
-            <a href="../../src/assets/LasCasasQC/Venue/Garden 3.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasQC/Venue/Garden 3.jpg" alt="image-1" /></a>
+            <a href={venueC} data-lightbox="example-1"><img src={venueC} alt="wedding venue" /></a>
           </div>
           <div>
-            <a href="../../src/assets/LasCasasQC/Venue/Plaza.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasQC/Venue/Plaza.jpg" alt="image-1" /></a>
+            <a href={venueD} data-lightbox="example-1"><img src={venueD} alt="wedding venue" /></a>
           </div>
           <div>
-            <a href="../../src/assets/LasCasasQC/Venue/Roosevelt Function Room.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasQC/Venue/Roosevelt Function Room.jpg" alt="image-1" /></a>
+            <a href={venueE} data-lightbox="example-1"><img src={venueE} alt="wedding venue" /></a>
           </div>
           <div>
-            <a href="../../src/assets/LasCasasQC/Venue/Casa Castillo.jpg" data-lightbox="example-1"><img src="../../src/assets/LasCasasQC/Venue/Casa Castillo.jpg" alt="image-1" /></a>
+            <a href={venueF} data-lightbox="example-1"><img src={venueF} alt="wedding venue" /></a>
           </div>
         </div>
       </div>
