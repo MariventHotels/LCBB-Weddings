@@ -67,7 +67,7 @@ const Packages = () => {
         <h2 className="text-center font-playfair text-4xl mb-5 xxsm:mb-2 xmd:text-2xl text-[#804B00]">
           Wedding Packages
         </h2>
-        <p className="text-center font-opensans mb-5 text-lg mx-[1rem] xmd:text-base text-[#242424]">
+        <p className="text-center font-opensans mb-5 text-lg mx-[1rem] xmd:text-sm text-[#242424]">
           Our special offers compliments the couple’s personalities. Choose from
           our regular or our signature Las Casas classic wedding package.
         </p>
