@@ -32,7 +32,7 @@ const Packages = () => {
       <div className="flex justify-center mb-20 xsm:mb-10">
         <img src={logo} alt="" className="w-[281px]" />
       </div>
-      <section className="mx-[50px] mb-20 xxsm:mb-10 border border-[#d9d9d9] xxsm:mx-[12px] hover:border-[#F0AF59]">
+      <section className="mx-[50px] xmd:mx-[5px] mb-20 xmd:mb-5 border border-[#d9d9d9] xxsm:mx-[12px] hover:border-[#F0AF59]">
         <div className="flex xmd:flex-col">
           <figure className="flex-1">
             <img
@@ -59,11 +59,11 @@ const Packages = () => {
           </div>
         </div>
       </section>
-      <div className="mb-20 xxsm:mb-10">
+      <div className="mb-20 xmd:mb-5">
         <h2 className="text-center font-playfair text-4xl mb-5 xmd:text-2xl">
           Wedding Packages
         </h2>
-        <p className="text-center font-opensans text-lg mb-5 mx-[1rem] xmd:text-base text-[#424242]">
+        <p className="text-center font-opensans text-lg mb-5 mx-[1rem] xmd:text-sm text-[#424242]">
           Our wedding packages are designed to ease the burden to you, our
           lovely couples, and just enjoy this special stage in your lives. Go
           beyond the conventional as our dedicated professional team help you
@@ -72,7 +72,7 @@ const Packages = () => {
         </p>
       </div>
 
-      <section className="mx-[50px] mb-10 border border-[#d9d9d9] hover:border-[#CEAA77] xxsm:mx-[12px]">
+      <section className="mx-[50px] xmd:mx-[5px] mb-10 border border-[#d9d9d9] hover:border-[#CEAA77] xxsm:mx-[12px]">
         <div className="flex xmd:flex-col">
           <figure className="flex-1">
             <img
@@ -105,7 +105,7 @@ const Packages = () => {
           </div>
         </div>
       </section>
-      <section className="mx-[50px] mb-10 border border-[#d9d9d9] hover:border-[#CEAA77] xxsm:mx-[12px]">
+      <section className="mx-[50px] xmd:mx-[5px] mb-10 border border-[#d9d9d9] hover:border-[#CEAA77] xxsm:mx-[12px]">
         <div className="flex xmd:flex-col">
           <figure className="flex-1">
             <img
@@ -136,7 +136,7 @@ const Packages = () => {
           </div>
         </div>
       </section>
-      <section className="mx-[50px] mb-10 border border-[#d9d9d9] hover:border-[#CEAA77] xxsm:mx-[12px]">
+      <section className="mx-[50px] xmd:mx-[5px] mb-10 border border-[#d9d9d9] hover:border-[#CEAA77] xxsm:mx-[12px]">
         <div className="flex xmd:flex-col">
           <figure className="flex-1">
             <img
@@ -167,7 +167,7 @@ const Packages = () => {
           </div>
         </div>
       </section>
-      <section className="mx-[50px] mb-20 xxsm:mb-5 border border-[#d9d9d9] hover:border-[#CEAA77] xxsm:mx-[12px]">
+      <section className="mx-[50px] xmd:mx-[5px] mb-20 xxsm:mb-5 border border-[#d9d9d9] hover:border-[#CEAA77] xxsm:mx-[12px]">
         <div className="flex xmd:flex-col">
           <figure className="flex-1">
             <img

@@ -7,17 +7,17 @@ import venueF from "../../src/assets/LasCasasQC/Venue/Roosevelt Function Room.jp
 
 const Venue = () => {
   return (
-    <div id="venue" className="mt-10">
+    <div id="venue" className="mt-10 xmd:mt-5">
       <div className="flex flex-col">
         <h1 className="text-center text-3xl font-playfair xmd:text-2xl">
           Venue
         </h1>
-        <p className="text-center text-[#424242] font-opensans text-lg xmd:text-base mx-[1rem] mb-10">
+        <p className="text-center text-[#424242] font-opensans text-lg xmd:text-sm mx-[1rem] mb-10">
           Las Casas Filipinas de Acuzar will surely leave each of your guest
           awestruck with its timeless yet romantic elegance.
         </p>
       </div>
-      <div className="mx-20">
+      <div className="mx-20 xmd:mx-2">
         <div className="grid xmd:grid-cols-1 grid-cols-3 gap-5">
           <div>
             <a href={venueA} data-lightbox="example-1"><img src={venueA} alt="wedding venue" /></a>

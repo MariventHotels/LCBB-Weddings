@@ -48,7 +48,7 @@ const GalleryPage = () => {
       <h1 className="font-playfair text-4xl xmd:text-3xl text-center mt-10 mb-5 xmd:mt-5">
         Gallery
       </h1>
-      <p className="font-opensans text-lg text-center mb-10 xxsm:mb-8 xmd:text-base xsm:mx-[1rem] text-[#424242]">
+      <p className="font-opensans text-lg xmd:text-sm text-center mb-10 xxsm:mb-8 xsm:mx-[1rem] text-[#424242]">
         &quot;Explore our stunning places where love and memories intertwine,
         creating enchanting moments that last a lifetime.&quot;
       </p>
@@ -88,7 +88,7 @@ const GalleryPage = () => {
         <div className="xmd:flex justify-center relative hidden">
           <Dropdown handleButton={handleButton} />
         </div>
-        <hr className="border-[rgb(206,170,119)] mb-8 xxsm:hidden" />
+        <hr className="border-[rgb(206,170,119)] mb-8 xmd:hidden" />
 
         <PhotoAlbum
           breakpoints={[485, 852, 1137]}

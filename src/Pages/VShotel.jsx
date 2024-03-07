@@ -31,25 +31,25 @@ const VShotel = () => {
         </div>
       </Header>
 
-      <div className="flex justify-center mb-5 xsm:mb-10">
+      <div className="flex justify-center mb-5 xsm:mb-3">
         <img src={logo} alt="" className="xsm:w-[250px] w-[320px]" />
       </div>
-      <div className="mb-20 xxsm:mb-10 w-3/4 xmd:w-full mx-auto xmd:mx-0">
-        <p className="text-center font-opensans mb-5 text-lg mx-[1rem] xmd:text-base text-[#424242]">
+      <div className="mb-20 xmd:mb-5 xxsm:mb-10 w-3/4 xmd:w-full mx-auto xmd:mx-0">
+        <p className="text-center font-opensans mb-5 text-lg  xmd:text-sm mx-[1rem] xmd:mx-0 text-[#424242]">
           Indulge in the allure of urban elegance at VS Hotel Convention Center. Celebrate love amidst the city's vibrant energy, where sophistication meets charm. Our exquisite venue sets the perfect stage for an urban wedding destination like no other. Say 'I do' in style, surrounded by breathtaking views and luxurious amenities. Create magical memories that will be cherished for a lifetime. Begin your love story in the heart of the city at the VS Hotel Convention Center.
         </p>
       </div>
 
-      <div className="mb-20 xxsm:mb-10 w-3/4 xmd:w-full mx-auto xmd:mx-0 xmd:p-2">
+      <div className="mb-20 xmd:mb-5 xxsm:mb-10 w-3/4 xmd:w-full mx-auto xmd:mx-0 xmd:p-2">
         <h2 className="text-center font-playfair text-4xl mb-5 xxsm:mb-2 xmd:text-2xl text-[#804B00]">
           Wedding Packages
         </h2>
-        <p className="text-center font-opensans mb-5 text-lg xmd:text-base text-[#424242] ">
+        <p className="text-center font-opensans mb-5 text-lg xmd:text-sm text-[#424242] ">
           Discover the perfect blend of elegance and convenience with our bespoke wedding packages. Elevate your special day effortlessly with our expertly crafted offerings, tailored to suit every dream wedding.
         </p>
       </div>
 
-      <section className="mx-[50px] xxsm:mx-[12px] mb-10 border border-[#d9d9d9] hover:border-[#CEAA77]">
+      <section className="mx-[50px] xmd:mx-[5px] mb-10 border border-[#d9d9d9] hover:border-[#CEAA77]">
         <div className="flex xmd:flex-col">
           <figure className="flex-1">
             <img
@@ -65,7 +65,7 @@ const VShotel = () => {
               </p>
             </div>
             <div className="p-5 text-justify font-opensans">
-              <p className="xsm:text-sm text-[#424242] text-center">
+              <p className="xmd:text-sm text-[#424242] text-center">
               Celebrate your love with our Basic Wedding Package, a seamless blend of simplicity and elegance. Our package includes a beautifully decorated venue and a personalized ceremony to make your vows truly unforgettable.
               </p>
             </div>
@@ -79,7 +79,7 @@ const VShotel = () => {
           </div>
         </div>
       </section>
-      <section className="mx-[50px] mb-20 border border-[#d9d9d9] hover:border-[#CEAA77] xxsm:mx-[12px] xxsm:mb-5">
+      <section className="mx-[50px] xmd:mx-[5px] mb-20 border border-[#d9d9d9] hover:border-[#CEAA77] xxsm:mx-[12px] xxsm:mb-5">
         <div className="flex xmd:flex-col">
           <figure className="flex-1">
             <img

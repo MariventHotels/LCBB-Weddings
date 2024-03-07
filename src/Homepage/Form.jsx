@@ -57,7 +57,7 @@ const Form = () => {
     <div className="h-auto mb-20 md:mb-0 xmd:mx-0 mx-20">
       <div className="px-2 flex-1 p-10 xxsm:justify-start">
 
-        <form ref={form} onSubmit={sendEmail} className="w-3/5 xmd:w-full mx-auto bg-white p-10 xmd:p-1">
+        <form ref={form} onSubmit={sendEmail} className="w-3/5 xmd:w-full mx-auto bg-white p-10 xmd:p-1 xmd:py-10">
           <h1 className="text-3xl font-playfair text-center mb-10 text-[#804B00] xmd:text-2xl">
             Reach us now!
           </h1>
