@@ -58,7 +58,7 @@ const LCBataan = () => {
       {imageSections.map((sec, index) => (
         <div className="flex relative" key={index}>
           <Link to={sec.link}>
-          <div className="flex gap-5 mb-20 justify-center mx-[1rem] xmd:mb-10 xmd:flex-wrap"
+          <div className="flex-1 w-[280px] xmd:w-full h-[348px] xmd:h-full overflow-hidden"
           >
           <ImageHover>
             <img
