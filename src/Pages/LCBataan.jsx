@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import img from "../assets/home/lascasasbataan/BataanCover.png";
 import packages from "../assets/home/lascasasbataan/main/packagesb.jpg";
 import venue from "../assets/home/lascasasbataan/main/Venue.jpg";
-import menu from "../assets/home/lascasasbataan/main/Menu.jpg";
+import menu from "../assets/home/lascasasbataan/main/lcbb-menu.jpg";
 import lookbook from "../assets/home/lascasasbataan/main/Lookbook.jpg";
 import logobrown from "../assets/logos/Lascasas_B_brown.png";
 import ImageHover from "../Reusable Components/ImageHover";
@@ -28,6 +28,7 @@ const LCBataan = () => {
     title: "Menu",
     link: "/bataan/menu",
   },
+
   {
     image: lookbook,
     title: "Look Book",
@@ -47,24 +48,23 @@ const LCBataan = () => {
         </div>
       </Header>
 
-      <div className="max-w-[63rem] mx-auto mb-20 xmd:mb-10 xxsm:mt-10">
-        <h3 className="text-2xl text-center text-[#424242] font-opensans xmd:text-base xsm:mx-[1rem]">
+      <div className="max-w-[63rem] mx-auto mb-20 xmd:mb-10 xmd:mt-0">
+        <h3 className="text-2xl text-center text-[#424242] font-opensans xmd:text-sm xsm:mx-[1rem]">
           Las Casas has been the ultimate dream wedding destination. It offers a variety of green gardens,
           grand ballrooms, and Filipino-Spanish inspired Casas which will surely be a unique wedding from the rest.
         </h3>
       </div>
-        <div className="flex gap-5 mb-20 justify-center mx-[1rem] xmd:mb-10 xmd:flex-wrap"
-        >
+      <div className="flex gap-5 mb-20 justify-center mx-[1rem] xmd:mb-10 xmd:flex-wrap">
       {imageSections.map((sec, index) => (
         <div className="flex relative" key={index}>
           <Link to={sec.link}>
-          <div className="flex-1 w-[280px] h-[348px] overflow-hidden"
+          <div className="flex gap-5 mb-20 justify-center mx-[1rem] xmd:mb-10 xmd:flex-wrap"
           >
           <ImageHover>
             <img
               src={sec.image}
               alt=""
-              className="w-[280px] h-[348px] object-cover z-0"
+              className="w-[280px] xmd:w-auto h-[348px] object-cover z-0"
             />
             </ImageHover>
           </div>
@@ -85,7 +85,7 @@ const LCBataan = () => {
         </div>
       </div>
       <div className="max-w-[63rem] mx-auto mb-20 xmd:mb-10">
-        <h3 className="text-2xl text-center text-[#424242] font-opensans xmd:text-base xsm:mx-[1rem]">
+        <h3 className="text-2xl text-center text-[#424242] font-opensans xmd:text-sm xsm:mx-[1rem]">
         Las Casas Filipinas de Acuzar in Bagac, Bataan is a beach resort, convention center, and heritage
         destination rolled into one. Home to Jose Acuzar’s collection of Spanish-Filipino Houses that have
         been renovated and rebuilt by a team of artisans and craftsmen in the town of Bagac, Las Casas
