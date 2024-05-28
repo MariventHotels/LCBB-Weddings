@@ -1,52 +1,53 @@
-import img1 from '../assets/LasCasasBataan/LookBook/0001.jpg'
-import img2 from '../assets/LasCasasBataan/LookBook/0002.jpg'
-import img3 from '../assets/LasCasasBataan/LookBook/0003.jpg'
-import img4 from '../assets/LasCasasBataan/LookBook/0004.jpg'
-import img5 from '../assets/LasCasasBataan/LookBook/0005.jpg'
-import img6 from '../assets/LasCasasBataan/LookBook/0006.jpg'
-import img7 from '../assets/LasCasasBataan/LookBook/0007.jpg'
-import img8 from '../assets/LasCasasBataan/LookBook/0008.jpg'
-import img9 from '../assets/LasCasasBataan/LookBook/0009.jpg'
-import img10 from '../assets/LasCasasBataan/LookBook/0010.jpg'
-import img11 from '../assets/LasCasasBataan/LookBook/0011.jpg'
-import img12 from '../assets/LasCasasBataan/LookBook/0012.jpg'
-import img13 from '../assets/LasCasasBataan/LookBook/0013.jpg'
-import img14 from '../assets/LasCasasBataan/LookBook/0014.jpg'
-import img15 from '../assets/LasCasasBataan/LookBook/0015.jpg'
-import img16 from '../assets/LasCasasBataan/LookBook/0016.jpg'
-import img17 from '../assets/LasCasasBataan/LookBook/0017.jpg'
-import img18 from '../assets/LasCasasBataan/LookBook/0018.jpg'
-import img19 from '../assets/LasCasasBataan/LookBook/0019.jpg'
-import img20 from '../assets/LasCasasBataan/LookBook/0020.jpg'
-import img21 from '../assets/LasCasasBataan/LookBook/0021.jpg'
-import img22 from '../assets/LasCasasBataan/LookBook/0022.jpg'
-import img23 from '../assets/LasCasasBataan/LookBook/0023.jpg'
-import img24 from '../assets/LasCasasBataan/LookBook/0024.jpg'
-import img25 from '../assets/LasCasasBataan/LookBook/0025.jpg'
-import img26 from '../assets/LasCasasBataan/LookBook/0026.jpg'
-import img27 from '../assets/LasCasasBataan/LookBook/0027.jpg'
-import img28 from '../assets/LasCasasBataan/LookBook/0028.jpg'
-import img29 from '../assets/LasCasasBataan/LookBook/0029.jpg'
-import img30 from '../assets/LasCasasBataan/LookBook/0030.jpg'
-import img31 from '../assets/LasCasasBataan/LookBook/0031.jpg'
-import img32 from '../assets/LasCasasBataan/LookBook/0032.jpg'
-import img33 from '../assets/LasCasasBataan/LookBook/0033.jpg'
-import img34 from '../assets/LasCasasBataan/LookBook/0034.jpg'
-import img35 from '../assets/LasCasasBataan/LookBook/0035.jpg'
-import img36 from '../assets/LasCasasBataan/LookBook/0038.jpg'
-import img37 from '../assets/LasCasasBataan/LookBook/0037.jpg'
-import img38 from '../assets/LasCasasBataan/LookBook/0038.jpg'
-import img39 from '../assets/LasCasasBataan/LookBook/0039.jpg'
-import img40 from '../assets/LasCasasBataan/LookBook/0040.jpg'
-import img41 from '../assets/LasCasasBataan/LookBook/0041.jpg'
-import img42 from '../assets/LasCasasBataan/LookBook/0042.jpg'
-import img43 from '../assets/LasCasasBataan/LookBook/0043.jpg'
-import img44 from '../assets/LasCasasBataan/LookBook/0044.jpg'
-import img45 from '../assets/LasCasasBataan/LookBook/0045.jpg'
-import img46 from '../assets/LasCasasBataan/LookBook/0046.jpg'
+import img0 from '../assets/LasCasasBataan/LookBook/Lookbook-cover-a.jpg'
+import img1 from '../assets/LasCasasBataan/LookBook/Lookbook-cover-b.jpg'
+import img2 from '../assets/LasCasasBataan/LookBook/pp2.jpg'
+import img3 from '../assets/LasCasasBataan/LookBook/pp3.jpg'
+import img4 from '../assets/LasCasasBataan/LookBook/pp4.jpg'
+import img5 from '../assets/LasCasasBataan/LookBook/pp5.jpg'
+import img6 from '../assets/LasCasasBataan/LookBook/pp6.jpg'
+import img7 from '../assets/LasCasasBataan/LookBook/pp7.jpg'
+import img8 from '../assets/LasCasasBataan/LookBook/pp8.jpg'
+import img9 from '../assets/LasCasasBataan/LookBook/pp9.jpg'
+import img10 from '../assets/LasCasasBataan/LookBook/pp10.jpg'
+import img11 from '../assets/LasCasasBataan/LookBook/pp11.jpg'
+import img12 from '../assets/LasCasasBataan/LookBook/pp12.jpg'
+import img13 from '../assets/LasCasasBataan/LookBook/pp13.jpg'
+import img14 from '../assets/LasCasasBataan/LookBook/pp14.jpg'
+import img15 from '../assets/LasCasasBataan/LookBook/pp15.jpg'
+import img16 from '../assets/LasCasasBataan/LookBook/pp16.jpg'
+import img17 from '../assets/LasCasasBataan/LookBook/pp17.jpg'
+import img18 from '../assets/LasCasasBataan/LookBook/pp18.jpg'
+import img19 from '../assets/LasCasasBataan/LookBook/pp19.jpg'
+import img20 from '../assets/LasCasasBataan/LookBook/pp20.jpg'
+import img21 from '../assets/LasCasasBataan/LookBook/pp21.jpg'
+import img22 from '../assets/LasCasasBataan/LookBook/pp22.jpg'
+import img23 from '../assets/LasCasasBataan/LookBook/pp23.jpg'
+import img24 from '../assets/LasCasasBataan/LookBook/pp24.jpg'
+import img25 from '../assets/LasCasasBataan/LookBook/pp25.jpg'
+import img26 from '../assets/LasCasasBataan/LookBook/pp26.jpg'
+import img27 from '../assets/LasCasasBataan/LookBook/pp27.jpg'
+import img28 from '../assets/LasCasasBataan/LookBook/pp28.jpg'
+import img29 from '../assets/LasCasasBataan/LookBook/pp29.jpg'
+import img30 from '../assets/LasCasasBataan/LookBook/pp30.jpg'
+import img31 from '../assets/LasCasasBataan/LookBook/pp31.jpg'
+import img32 from '../assets/LasCasasBataan/LookBook/pp32.jpg'
+import img33 from '../assets/LasCasasBataan/LookBook/pp33.jpg'
+import img34 from '../assets/LasCasasBataan/LookBook/pp34.jpg'
+import img35 from '../assets/LasCasasBataan/LookBook/pp35.jpg'
+import img36 from '../assets/LasCasasBataan/LookBook/pp36.jpg'
+import img37 from '../assets/LasCasasBataan/LookBook/pp37.jpg'
+import img38 from '../assets/LasCasasBataan/LookBook/pp38.jpg'
+import img39 from '../assets/LasCasasBataan/LookBook/pp39.jpg'
+import img40 from '../assets/LasCasasBataan/LookBook/pp40.jpg'
+import img41 from '../assets/LasCasasBataan/LookBook/pp41.jpg'
+
 
 export default [
     {
+        id: 0,
+        image: img0,
+        },
+        {
         id: 1,
         image: img1,
         },
@@ -210,25 +211,4 @@ export default [
         id: 41,
         image: img41,
         },
-        {
-        id: 42,
-        image: img42,
-        },
-        {
-        id: 43,
-        image: img43,
-        },
-        {
-        id: 44,
-        image: img44,
-        },
-        {
-        id: 45,
-        image: img45,
-        },
-        {
-        id: 46,
-        image: img46,
-        },
-
 ]
