@@ -51,11 +51,11 @@ const Packages = () => {
                 stunning imagery for your next prenuptial shoot.
               </p>
             </div>
-            <div className="py-5">
+            {/* <div className="py-5">
               <Button   onClick={() => handleClick(0)}>
                 Package details
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -97,11 +97,11 @@ const Packages = () => {
                 intimate environment that they too can enjoy.
               </p>
             </div>
-            <div className="py-5">
+            {/* <div className="py-5">
               <Button onClick={() => handleClick(1)}>
                 Package details
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -128,11 +128,11 @@ const Packages = () => {
                 you journey to &quot;happily-ever-after&quot;
               </p>
             </div>
-            <div className="py-5">
+            {/* <div className="py-5">
               <Button onClick={() => handleClick(2)}>
                 Package details
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -159,11 +159,11 @@ const Packages = () => {
                 loved ones.
               </p>
             </div>
-            <div className="py-5">
+            {/* <div className="py-5">
               <Button onClick={() => handleClick(3)}>
                 Package details
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -191,11 +191,11 @@ const Packages = () => {
                 architectures as your backdrop.
               </p>
             </div>
-            <div className="py-5">
+            {/* <div className="py-5">
               <Button onClick={() => handleClick(4)}>
                 Package details
               </Button> 
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
