@@ -183,6 +183,7 @@ const Inquire = () => {
                 <option value=""></option>
                 <option value="Central Luzon">Central Luzon</option>
                 <option value="North Luzon">North Luzon</option>
+                <option value="North Luzon">South Luzon</option>
                 <option value="NCR">NCR</option>
                 <option value="International">International</option>
                 <option value="Others">Others</option>
